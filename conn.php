@@ -1,14 +1,14 @@
 <?php
 // Database connection parameters
 $connectionInfo = array(
-    "UID" => "vtate",                      // Username
-    "pwd" => "Studio0n",                   // Password
-    "Database" => "phpwebappDB",           // Database name
+    "UID" => "#",                      // Username
+    "pwd" => "#",                   // Password
+    "Database" => "#",           // Database name
     "LoginTimeout" => 30,                   // Login timeout (in seconds)
     "Encrypt" => 1,                         // Encrypt data sent over the network (1 for true, 0 for false)
     "TrustServerCertificate" => 0           // Trust the server certificate (1 for true, 0 for false)
 );
-$serverName = "tcp:phpwebappdbserver.database.windows.net,1433"; // Server name and port
+$serverName = "#"; // Server name and port
 
 // Attempt to establish connection
 $sql_conn = sqlsrv_connect($serverName, $connectionInfo);
