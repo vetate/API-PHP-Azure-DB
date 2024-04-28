@@ -1,4 +1,4 @@
-Lessons for BSc Degree students.
+Lessons for BSc Data Engineering Degree students.
 
 Using Azure Blob Storage, Containers, Data Factory Pipeline and SQL Server and DB.
 
