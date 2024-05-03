@@ -52,7 +52,7 @@
                 $artist_search = $_GET['artist_search'];
 
                 // Make the API call to fetch songs by artist
-                $endpoint = "https://phpwebappserc.azurewebsites.net/api.php?artist_search=" . urlencode($artist_search);
+                $endpoint = "artistSearch Endpoint Here" . urlencode($artist_search);
                 $result = file_get_contents($endpoint);
 
                 // Check if the API call was successful
