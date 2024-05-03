@@ -1,6 +1,6 @@
 <?php
 // Endpoint URL
-$endpoint = "https://phpwebappserc.azurewebsites.net/api.php?top";
+$endpoint = "https://#####/api.php?top";
 
 // Make the API call
 $result = file_get_contents($endpoint);
