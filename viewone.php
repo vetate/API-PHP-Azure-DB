@@ -36,7 +36,7 @@
     if (isset($_GET['song_id'])) {
         // Retrieve song details based on song_id
         $song_id = $_GET['song_id'];
-        $endpoint = "https://phpwebappserc.azurewebsites.net/apiOne.php?song_id=$song_id";
+        $endpoint = "https://#####/apiOne.php?song_id=$song_id";
         $result = file_get_contents($endpoint);
         $song = json_decode($result, true);
 
