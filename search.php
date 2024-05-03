@@ -61,7 +61,7 @@
                 $genre = $_GET['genre'];
 
                 // Make the API call to fetch songs by genre
-                $endpoint = "https://phpwebappserc.azurewebsites.net/api.php?genre={$genre}";
+                $endpoint = "https://####/api.php?genre={$genre}";
 
                 $result = file_get_contents($endpoint);
 
